@@ -1,0 +1,16 @@
+[package]
+name = "blockchain"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "innovate_tech"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+borsh = "0.10.3"
+serde = "1.0.183"
+serde_json = "1.0.105"
+solana-program = "1.16.8"
